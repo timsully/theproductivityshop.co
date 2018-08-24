@@ -1,11 +1,22 @@
 /* startpointw */
+html {
+  background-color: #F2F2F2;
+  margin-top: 84px;
+}
 
+.bg-overlay {
+  background-color: #F8F8F8;
+  height: 1486px;
+}
 
+.pdshop-logo {
+  padding-top: 56px;
+  padding-left: 67px;
+}
 
-
-
-
-
+.icon-links {
+  height: 64px;
+}
 
 
 /* endpoint */
