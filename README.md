@@ -1,2 +1,0 @@
-# theproductivityshop
-The Productivity Shop
