@@ -1,3 +1,44 @@
+/* font startpoint */
+
+@font-face {
+  font-family: "BaskervilleBT-Roman";
+  src: url('fonts/375535_0_0.eot'); /* IE9 Compat Modes */
+  src: url('fonts/375535_0_0.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+       url('fonts/375535_0_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/375535_0_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/375535_0_0.ttf') format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: "BaskervilleBT-Italic";
+    src: url('fonts/375535_1_0.eot'); /* IE9 Compat Modes */
+    src: url('font/375535_1_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/375535_1_0.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/375535_1_0.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/375535_1_0.ttf') format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "BaskervilleBT-Bold";
+  src: url('fonts/375535_2_0.eot'); /* IE9 Compat Modes */
+  src: url('fonts/375535_2_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/375535_2_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/375535_2_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/375535_2_0.ttf') format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "BaskervilleBT-BoldItalic";
+  src: url('fonts/375535_3_0.eot'); /* IE9 Compat Modes */
+  src: url('fonts/375535_3_0.eot?#iefix') format('embdedded-opentype'), /* IE6-IE8 */
+       url('fonts/375535_3_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/375535_3_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/375535_3_0.ttf') format('truetype') /* Safar, Android, iOS */
+}
+
+/* font endpoint */
+
+
 /* startpointw */
 html {
   background-color: #F2F2F2;
