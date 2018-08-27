@@ -1,7 +1,10 @@
 /* font startpoint */
+@import url("https://use.typekit.net/lyd4ggk.css");
 
 @font-face {
-  font-family: "BaskervilleBT-Roman";
+  font-family: "baskerville-display-pt";
+  font-weight: 400;
+  font-style: normal;
   src: url('fonts/375535_0_0.eot'); /* IE9 Compat Modes */
   src: url('fonts/375535_0_0.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
        url('fonts/375535_0_0.woff2') format('woff2'), /* Super Modern Browsers */
@@ -10,7 +13,9 @@
 }
 
 @font-face {
-    font-family: "BaskervilleBT-Italic";
+    font-family: "baskerville-display-pt";
+    font-weight: 400;
+    font-style: italic;
     src: url('fonts/375535_1_0.eot'); /* IE9 Compat Modes */
     src: url('font/375535_1_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('fonts/375535_1_0.woff2') format('woff2'), /* Super Modern Browsers */
@@ -19,7 +24,9 @@
 }
 
 @font-face {
-  font-family: "BaskervilleBT-Bold";
+  font-family: "baskerville-display-pt";
+  font-weight: 700;
+  font-style: normal;
   src: url('fonts/375535_2_0.eot'); /* IE9 Compat Modes */
   src: url('fonts/375535_2_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('fonts/375535_2_0.woff2') format('woff2'), /* Super Modern Browsers */
@@ -28,7 +35,9 @@
 }
 
 @font-face {
-  font-family: "BaskervilleBT-BoldItalic";
+  font-family: "baskerville-display-pt";
+  font-weight: 700;
+  font-style: italic;
   src: url('fonts/375535_3_0.eot'); /* IE9 Compat Modes */
   src: url('fonts/375535_3_0.eot?#iefix') format('embdedded-opentype'), /* IE6-IE8 */
        url('fonts/375535_3_0.woff2') format('woff2'), /* Super Modern Browsers */
@@ -40,6 +49,7 @@
 
 
 /* startpointw */
+
 html {
   background-color: #F2F2F2;
   margin-top: 84px;
@@ -58,6 +68,5 @@ html {
 .icon-links {
   height: 64px;
 }
-
 
 /* endpoint */
