@@ -1,49 +1,14 @@
 /* font startpoint */
-@import url("https://use.typekit.net/lyd4ggk.css");
+@import url("//hello.myfonts.net/count/375535");
 
-@font-face {
-  font-family: "baskerville-display-pt";
-  font-weight: 400;
-  font-style: normal;
-  src: url('fonts/375535_0_0.eot'); /* IE9 Compat Modes */
-  src: url('fonts/375535_0_0.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
-       url('fonts/375535_0_0.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/375535_0_0.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/375535_0_0.ttf') format('truetype') /* Safari, Android, iOS */
-}
+@font-face {font-family: 'BaskervilleBT-Roman';src: url('webfonts/375535_0_0.eot');src: url('webfonts/375535_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/375535_0_0.woff2') format('woff2'),url('webfonts/375535_0_0.woff') format('woff'),url('webfonts/375535_0_0.ttf') format('truetype'),url('webfonts/375535_0_0.svg#wf') format('svg');}
 
-@font-face {
-    font-family: "baskerville-display-pt";
-    font-weight: 400;
-    font-style: italic;
-    src: url('fonts/375535_1_0.eot'); /* IE9 Compat Modes */
-    src: url('font/375535_1_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/375535_1_0.woff2') format('woff2'), /* Super Modern Browsers */
-         url('fonts/375535_1_0.woff') format('woff'), /* Pretty Modern Browsers */
-         url('fonts/375535_1_0.ttf') format('truetype') /* Safari, Android, iOS */
-}
+@font-face {font-family: 'BaskervilleBT-Italic';src: url('webfonts/375535_1_0.eot');src: url('webfonts/375535_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/375535_1_0.woff2') format('woff2'),url('webfonts/375535_1_0.woff') format('woff'),url('webfonts/375535_1_0.ttf') format('truetype'),url('webfonts/375535_1_0.svg#wf') format('svg');}
 
-@font-face {
-  font-family: "baskerville-display-pt";
-  font-weight: 700;
-  font-style: normal;
-  src: url('fonts/375535_2_0.eot'); /* IE9 Compat Modes */
-  src: url('fonts/375535_2_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/375535_2_0.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/375535_2_0.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/375535_2_0.ttf') format('truetype') /* Safari, Android, iOS */
-}
+@font-face {font-family: 'BaskervilleBT-Bold';src: url('webfonts/375535_2_0.eot');src: url('webfonts/375535_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/375535_2_0.woff2') format('woff2'),url('webfonts/375535_2_0.woff') format('woff'),url('webfonts/375535_2_0.ttf') format('truetype'),url('webfonts/375535_2_0.svg#wf') format('svg');}
 
-@font-face {
-  font-family: "baskerville-display-pt";
-  font-weight: 700;
-  font-style: italic;
-  src: url('fonts/375535_3_0.eot'); /* IE9 Compat Modes */
-  src: url('fonts/375535_3_0.eot?#iefix') format('embdedded-opentype'), /* IE6-IE8 */
-       url('fonts/375535_3_0.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/375535_3_0.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/375535_3_0.ttf') format('truetype') /* Safar, Android, iOS */
-}
+@font-face {font-family: 'BaskervilleBT-BoldItalic';src: url('webfonts/375535_3_0.eot');src: url('webfonts/375535_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/375535_3_0.woff2') format('woff2'),url('webfonts/375535_3_0.woff') format('woff'),url('webfonts/375535_3_0.ttf') format('truetype'),url('webfonts/375535_3_0.svg#wf') format('svg');}
+
 
 /* font endpoint */
 
@@ -69,6 +34,17 @@ html {
   height: 64px;
 }
 
+.maintitle {
+  font-family: "adobe-garamond-pro";
+  font-variant-ligatures: common-ligatures;
+  -moz-font-feature-settings: "liga", "clig";
+  -webkit-font-feature-settings: "liga", "clig";
+  font-feature-settings: "liga", "clig";
+  line-height: 38px;
+  font-size: 40px;
+  letter-spacing: -.028em;
+}
 
 .tk-baskerville-display-pt { font-family: "baskerville-display-pt",serif; }
+
 /* endpoint */
